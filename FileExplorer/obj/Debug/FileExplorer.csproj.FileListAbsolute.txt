@@ -1,0 +1,17 @@
+C:\Users\rafas\source\repos\FileExplorer\FileExplorer\bin\Debug\FileExplorer.exe.config
+C:\Users\rafas\source\repos\FileExplorer\FileExplorer\bin\Debug\FileExplorer.exe
+C:\Users\rafas\source\repos\FileExplorer\FileExplorer\bin\Debug\FileExplorer.pdb
+C:\Users\rafas\source\repos\FileExplorer\FileExplorer\obj\Debug\FileExplorer.csprojResolveAssemblyReference.cache
+C:\Users\rafas\source\repos\FileExplorer\FileExplorer\obj\Debug\MainWindow.g.cs
+C:\Users\rafas\source\repos\FileExplorer\FileExplorer\obj\Debug\App.g.cs
+C:\Users\rafas\source\repos\FileExplorer\FileExplorer\obj\Debug\FileExplorer_MarkupCompile.cache
+C:\Users\rafas\source\repos\FileExplorer\FileExplorer\obj\Debug\FileExplorer_MarkupCompile.lref
+C:\Users\rafas\source\repos\FileExplorer\FileExplorer\obj\Debug\MainWindow.baml
+C:\Users\rafas\source\repos\FileExplorer\FileExplorer\obj\Debug\FileExplorer.g.resources
+C:\Users\rafas\source\repos\FileExplorer\FileExplorer\obj\Debug\FileExplorer.Properties.Resources.resources
+C:\Users\rafas\source\repos\FileExplorer\FileExplorer\obj\Debug\FileExplorer.csproj.GenerateResource.Cache
+C:\Users\rafas\source\repos\FileExplorer\FileExplorer\obj\Debug\FileExplorer.csproj.CoreCompileInputs.cache
+C:\Users\rafas\source\repos\FileExplorer\FileExplorer\obj\Debug\FileExplorer.exe
+C:\Users\rafas\source\repos\FileExplorer\FileExplorer\obj\Debug\FileExplorer.pdb
+C:\Users\rafas\source\repos\FileExplorer\FileExplorer\bin\Debug\PropertyChanged.dll
+C:\Users\rafas\source\repos\FileExplorer\FileExplorer\bin\Debug\PropertyChanged.xml
