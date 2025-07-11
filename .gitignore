@@ -1,0 +1,75 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# NuGet
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# WPF specific
+*.cache
+*.dbmdl
+
+# Others
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Backup & log files
+*.bak
+*.log
+
+# OS generated files
+.DS_Store
+*.swp
+
+# Rider
+.idea/
+*.sln.iml
+/FileExplorer/obj/Debug/App.g.cs
+/FileExplorer/obj/Debug/App.g.i.cs
+/FileExplorer/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+/FileExplorer/obj/Debug/FileExplorer.csproj.FileListAbsolute.txt
+/FileExplorer/obj/Debug/FileExplorer.exe
+/FileExplorer/obj/Debug/FileExplorer.pdb
+/FileExplorer/obj/Debug/FileExplorer_MarkupCompile.cache
+/FileExplorer/obj/Debug/FileExplorer_MarkupCompile.lref
+/FileExplorer/obj/Debug/MainWindow.baml
+/FileExplorer/obj/Debug/MainWindow.g.cs
+/FileExplorer/obj/Debug/MainWindow.g.i.cs
+/FileExplorer/obj/Debug/App.g.cs
+/FileExplorer/obj/Debug/App.g.i.cs
+/FileExplorer/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+/FileExplorer/obj/Debug/FileExplorer.csproj.FileListAbsolute.txt
+/FileExplorer/obj/Debug/FileExplorer.exe
+/FileExplorer/obj/Debug/FileExplorer.pdb
+/FileExplorer/obj/Debug/FileExplorer_MarkupCompile.cache
+/FileExplorer/obj/Debug/FileExplorer_MarkupCompile.lref
+/FileExplorer/obj/Debug/MainWindow.baml
+/FileExplorer/obj/Debug/MainWindow.g.cs
+/FileExplorer/obj/Debug/MainWindow.g.i.cs
+/FileExplorer/Properties/Resources.Designer.cs
