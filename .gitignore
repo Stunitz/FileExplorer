@@ -9,6 +9,10 @@
 [Bb]in/
 [Oo]bj/
 
+# Ignore all files inside bin/Debug and obj/Debug for all projects
+**/bin/Debug/**
+**/obj/Debug/**
+
 # NuGet
 *.nupkg
 # The packages folder can be ignored because of Package Restore
@@ -50,26 +54,3 @@ _ReSharper*/
 # Rider
 .idea/
 *.sln.iml
-/FileExplorer/obj/Debug/App.g.cs
-/FileExplorer/obj/Debug/App.g.i.cs
-/FileExplorer/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
-/FileExplorer/obj/Debug/FileExplorer.csproj.FileListAbsolute.txt
-/FileExplorer/obj/Debug/FileExplorer.exe
-/FileExplorer/obj/Debug/FileExplorer.pdb
-/FileExplorer/obj/Debug/FileExplorer_MarkupCompile.cache
-/FileExplorer/obj/Debug/FileExplorer_MarkupCompile.lref
-/FileExplorer/obj/Debug/MainWindow.baml
-/FileExplorer/obj/Debug/MainWindow.g.cs
-/FileExplorer/obj/Debug/MainWindow.g.i.cs
-/FileExplorer/obj/Debug/App.g.cs
-/FileExplorer/obj/Debug/App.g.i.cs
-/FileExplorer/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
-/FileExplorer/obj/Debug/FileExplorer.csproj.FileListAbsolute.txt
-/FileExplorer/obj/Debug/FileExplorer.exe
-/FileExplorer/obj/Debug/FileExplorer.pdb
-/FileExplorer/obj/Debug/FileExplorer_MarkupCompile.cache
-/FileExplorer/obj/Debug/FileExplorer_MarkupCompile.lref
-/FileExplorer/obj/Debug/MainWindow.baml
-/FileExplorer/obj/Debug/MainWindow.g.cs
-/FileExplorer/obj/Debug/MainWindow.g.i.cs
-/FileExplorer/Properties/Resources.Designer.cs
