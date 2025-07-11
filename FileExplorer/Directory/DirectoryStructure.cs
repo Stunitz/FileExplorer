@@ -76,15 +76,19 @@ namespace FileExplorer
             if (string.IsNullOrEmpty(path))
                 return string.Empty;
 
-            // Make all slashes, to back slashes
+            // Make all slashes to back slashes
             var normalizedPath = path.Replace('/', '\\');
+
+            // Remove trailing backslashes except for root (e.g., C:\)
+            while (normalizedPath.Length > 3 && normalizedPath.EndsWith("\\"))
+                normalizedPath = normalizedPath.TrimEnd('\\');
 
             // Find the last backslash in the path
             var lastIndex = normalizedPath.LastIndexOf('\\');
 
             // If we don't find a backslash, return the path itself
-            if (lastIndex <= 0)
-                return path;
+            if (lastIndex < 0)
+                return normalizedPath;
 
             // Return the name after the last back slash
             return normalizedPath.Substring(lastIndex + 1);
