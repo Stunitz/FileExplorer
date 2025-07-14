@@ -69,14 +69,12 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
-    <Compile Include="Directory\BaseViewModelTests.cs" />
-    <Compile Include="Directory\DirectoryItemTests.cs" />
-    <Compile Include="Directory\DirectoryItemTypeTests.cs" />
-    <Compile Include="Directory\DirectoryItemViewModelTests.cs" />
-    <Compile Include="Directory\DirectoryItemViewModelUnitTests.cs" />
+    <Compile Include="Directory\ViewModels\Base\BaseViewModelTests.cs" />
+    <Compile Include="Directory\Data\DirectoryItemTests.cs" />
+    <Compile Include="Directory\Data\DirectoryItemTypeTests.cs" />
     <Compile Include="Directory\DirectoryStructureTests.cs" />
-    <Compile Include="Directory\DirectoryStructureViewModelTests.cs" />
-    <Compile Include="Directory\RelayCommandTests.cs" />
+    <Compile Include="Directory\ViewModels\DirectoryStructureViewModelTests.cs" />
+    <Compile Include="Directory\ViewModels\Base\RelayCommandTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
