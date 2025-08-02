@@ -73,6 +73,7 @@
     <Compile Include="Directory\Data\DirectoryItemTests.cs" />
     <Compile Include="Directory\Data\DirectoryItemTypeTests.cs" />
     <Compile Include="Directory\DirectoryStructureTests.cs" />
+    <Compile Include="Directory\ViewModels\DirectoryItemViewModelTests.cs" />
     <Compile Include="Directory\ViewModels\DirectoryStructureViewModelTests.cs" />
     <Compile Include="Directory\ViewModels\Base\RelayCommandTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
