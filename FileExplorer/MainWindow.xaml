@@ -8,11 +8,24 @@
         Title="Files Explorer" Height="350" Width="525">
     
     <Grid>
-        <TreeView x:Name="FolderView" ItemsSource="{Binding Items}">
+        <TreeView x:Name="FolderView" ItemsSource="{Binding Items}"
+                  AllowDrop="True"
+                  PreviewMouseLeftButtonDown="FolderView_PreviewMouseLeftButtonDown"
+                  Drop="FolderView_Drop">
             
             <TreeView.ItemContainerStyle>
                 <Style TargetType="{x:Type TreeViewItem}">
                     <Setter Property="IsExpanded" Value="{Binding IsExpanded, Mode=TwoWay}" />
+                    <Setter Property="ContextMenu">
+                        <Setter.Value>
+                            <ContextMenu>
+                                <MenuItem Header="Copy" Command="{Binding CopyCommand}" />
+                                <MenuItem Header="Move" Command="{Binding MoveCommand}" />
+                                <MenuItem Header="Delete" Command="{Binding DeleteCommand}" />
+                                <MenuItem Header="Rename" Command="{Binding RenameCommand}" />
+                            </ContextMenu>
+                        </Setter.Value>
+                    </Setter>
                 </Style>
             </TreeView.ItemContainerStyle>
 
